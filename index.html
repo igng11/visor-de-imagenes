@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de imágenes</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> <strong>PROJECT</strong>  SLIDER</h1>
+    </header>
+<div id="visor">
+    <div id="cont">
+    <img id="et_img" src="/img/foto1.jpg" name="fotos" alt="1. India - Taj Majal."> 
+        <p id="bner"><strong>1.  India </strong> <br> Taj Majal</p>
+    </img>
+    </div>
+    <div id="ctrl">
+        <div id="derecha">
+            <button id="btn_r" onclick="prev_ph()"></button>
+        </div>
+        <div id="izquierda">
+            <button id="btn_l" onclick="next_ph()"></button>
+        </div>
+    </div>
+    <div id="ind">
+        <div id="ind_min" class="min min_0" style="background-color: white;"></div>
+        <div id="ind_min" class="min min_1" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+        <div id="ind_min" class="min min_2" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+        <div id="ind_min" class="min min_3" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+        <div id="ind_min" class="min min_4" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+        <div id="ind_min" class="min min_5" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+        <div id="ind_min" class="min min_6" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+        <div id="ind_min" class="min min_7" style="background-color: rgba(255, 255, 255, 0.5);"></div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/js/script.js"></script>
+</html>
